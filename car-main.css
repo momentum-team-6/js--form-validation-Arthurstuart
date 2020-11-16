@@ -1,0 +1,27 @@
+.form-container {
+  font-family: sans-serif;
+  max-width: 40rem;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.form-input {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.group-inputs {
+display: flex;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: 
+}
+

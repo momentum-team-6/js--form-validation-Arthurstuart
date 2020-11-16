@@ -1,0 +1,37 @@
+
+const form = document.querySelector('#parking-form')
+const creditCardNum = document.querySelector(
+const validDate = document.querySelector('#start-date')
+const carYear = document.querySelector('#car-year'))
+
+
+// function validate() {
+//     let creditCardNum = document.querySelector('#credit-card').value 
+//     validateCardNumber(creditCardNum)
+//     if (validateCardNumber(creditCardNum.value)===false) {
+//      creditCardNum.setCustomValidity("Invalid Card Number")
+
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault
+    calculateCost()
+    validate()
+    carValid()
+    
+})
+
+function carValid() { 
+        let dateToday = new Date() .getFullYear()
+        let invalidYear = 1900
+ 
+        }
+    })
+}
+
+function calculateCost() {
+    let numberOFDays = document.querySelector('#days').value
+    let result = eval(numberOFDays * 5)
+    console.log(result)
+    const display = document.querySelector('#total')
+    display.innerHTML = result
+}
